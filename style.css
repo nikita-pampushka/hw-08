@@ -112,3 +112,42 @@ body {
 .menu-link.last {
     margin-right: 0;
 }
+
+.sale {
+    height: 604px;
+    background-image: url('images/sale.png');
+    padding: 192px 0 193px 0;
+}
+
+.sale-title {
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+
+.sale-text {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    width: 308px;
+    margin-bottom: 62px;
+}
+
+.sale-link {
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 13px 26px;
+    text-align: center;
+}
+
+.link-word {
+    display: inline-block;
+    width: 117px;
+}
