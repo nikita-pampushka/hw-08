@@ -139,9 +139,13 @@ body {
     width: 117px;
 }
 
-.cards {
+.main-section {
     background-color: #E5E5E5;
-    padding: 80px 0 100px 0;
+}
+
+.cards {
+    padding-top: 100px;
+    margin-bottom: 80px;
 }
 
 .card-title {
@@ -176,7 +180,7 @@ body {
     color: #333333;
     font-size: 14px;
     line-height: 20px;
-    margin: 0 30px 20px 30px;
+    margin: 0 30px 13px 30px;
 }
 
 .price {
@@ -200,3 +204,67 @@ body {
     border: none;
     margin: 0 62px;
 }
+
+.two-cards {
+    margin-bottom: 100px;
+}
+
+.card-bonus {
+    display: inline-block;
+    width: 540px;
+    background-color: #F13C6E;
+    padding: 35px 45px 35px 40px;
+    margin-right: 30px;
+}
+
+.card-bonus.right {
+    margin-right: 0;
+    padding-bottom: 44px;
+}
+
+.card-bonus_left-part {
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.card-bonus_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.card-bonus_text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.input {
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    width: 225px;
+    height: 35px;
+}
+
+.envelope {
+    vertical-align: top;
+    margin-top: 1px;
+}
+
+.card-bonus_left-part.right-card {
+    margin-right: 96px;
+}
+
+.card-bonus_text.right-card {
+    margin-bottom: 34px;
+}
+
+.button.sale-link.map {
+    letter-spacing: normal;
+    padding: 9px 26px;
+}
+
