@@ -268,3 +268,20 @@ body {
     padding: 9px 26px;
 }
 
+.logo-section_link {
+    float: left;
+    width: 277px;
+    height: 118px;
+    background-color: white;
+    border: 1px solid #EFEFEF;
+    padding: 35px 69px 35px 60px;
+}
+
+.logo-section {
+    margin-bottom: 80px;
+}
+
+.cards.looked {
+    padding-top: 0;
+    padding-bottom: 81px;
+}
