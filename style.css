@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid #EFEFEF;;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .logo {
@@ -284,4 +284,71 @@ body {
 .cards.looked {
     padding-top: 0;
     padding-bottom: 81px;
+    margin-bottom: 0;
+}
+
+.category-section {
+    padding: 60px 0;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.category-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    width: 255px;
+    margin-bottom: 25px;
+}
+
+.category-item {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.category {
+    float: left;
+    margin-right: 30px;
+}
+
+.category:nth-child(4n) {
+    margin-right: 0;
+}
+
+.contacts {
+    padding: 37px 0;
+}
+
+.social {
+    float: left;
+    margin-right: 30px;
+}
+
+.phone.bottom {
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+
+.button.network {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #EFEFEF;
+    padding: 25px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
 }
