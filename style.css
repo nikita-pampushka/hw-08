@@ -33,7 +33,6 @@ body {
 
 .link {
     text-decoration: none;
-    text-transform: capitalize;
     color: #333333;
     font-size: 14px;
     line-height: 16px;
@@ -45,7 +44,6 @@ body {
 
 .header {
     border-bottom: 1px solid #EFEFEF;
-    height: 120px;
     padding: 20px 0;
 }
 
@@ -62,7 +60,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
-    color: black;
+    color: #000000;
     margin: 30px 40px 30px 0;
 }
 
@@ -71,14 +69,15 @@ body {
     font-size: 14px;
     line-height: 16px;
     padding: 13px 26px;
-    background-color: white;
+    background-color: #ffffff;
     border: 2px solid #F13C6E;
     border-radius: 40px;
-    margin: 40px 0;
+    margin: 20px 0;
     cursor: pointer;
 }
 
 .services {
+    background-color: #ffffff;
     padding: 30px 0;
 }
 
@@ -91,7 +90,7 @@ body {
     float: left;
     margin-right: 40px;
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: 16px;
     line-height: 19px;
 }
@@ -101,7 +100,6 @@ body {
 }
 
 .sale {
-    height: 604px;
     background-image: url('images/sale.png');
     background-position: center;
     background-size: cover;
@@ -110,14 +108,14 @@ body {
 
 .sale-title {
     font-weight: 700;
-    color: white;
+    color: #FFFFFF;
     font-size: 48px;
     line-height: 56px;
     margin-bottom: 50px;
 }
 
 .sale-text {
-    color: white;
+    color: #FFFFFF;
     font-size: 14px;
     line-height: 20px;
     width: 308px;
@@ -126,7 +124,7 @@ body {
 
 .button.sale-link {
     float: none;
-    color: white;
+    color: #FFFFFF;
     background-color: #F13C6E;
     letter-spacing: 0.05em;
     text-decoration: none;
@@ -160,9 +158,9 @@ body {
     float: left;
     margin-right: 30px;
     padding-top: 25px;
-    padding-bottom: 34px;
+    padding-bottom: 25px;
     width: 255px;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -193,20 +191,21 @@ body {
 }
 
 .button.buy {
+    display: block;
     float: none;
     width: 130px;
     height: 35px;
     padding: 9px 40px 9px 39px;
     letter-spacing: 0.05em;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     background-color: #F13C6E;
     border-radius: 30px;
     border: none;
     margin: 0 62px;
 }
 
-.two-cards {
+.main-cards {
     margin-bottom: 100px;
 }
 
@@ -226,6 +225,7 @@ body {
 .card-bonus_left-part {
     display: inline-block;
     margin-right: 65px;
+    width: 250px;
 }
 
 .card-bonus_title {
@@ -244,19 +244,22 @@ body {
 }
 
 .input {
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 30px;
     border: none;
     width: 225px;
     height: 35px;
+    color: #C4C4C4;
+    padding: 9px 0 9px 25px;
 }
 
 .envelope {
-    vertical-align: top;
-    margin-top: 1px;
+    display: inline-block;
+    margin-top: 18px;
 }
 
 .card-bonus_left-part.right-card {
+    width: 170px;
     margin-right: 96px;
 }
 
@@ -269,11 +272,16 @@ body {
     padding: 9px 26px;
 }
 
+.truck {
+    display: inline-block;
+    margin-top: 21px;
+}
+
 .logo-section_link {
     float: left;
     width: 277px;
     height: 118px;
-    background-color: white;
+    background-color: #FFFFFF;
     border: 1px solid #EFEFEF;
     padding: 35px 69px 35px 60px;
 }
@@ -289,6 +297,7 @@ body {
 }
 
 .category-section {
+    background-color: #ffffff;
     padding: 60px 0;
     border-bottom: 1px solid #EFEFEF;
 }
@@ -320,13 +329,36 @@ body {
 }
 
 .contacts {
+    background-color: #ffffff;
     padding: 37px 0;
     height: 120px;
 }
 
 .social {
     float: left;
-    margin-right: 30px;
+    margin-right: 16px;
+    width: 45px;
+    height: 45px;
+}
+
+.social.youtube {
+    background-image: url('images/youtube.png');
+    background-size: contain;
+}
+
+.social.vk {
+    background-image: url('images/vk.png');
+    background-size: contain;
+}
+
+.social.facebook {
+    background-image: url('images/facebook.png');
+    background-size: contain;
+}
+
+.social.instagram {
+    background-image: url('images/instagram.png');
+    background-size: contain;
 }
 
 .phone.bottom {
